@@ -46,9 +46,10 @@ Primeiramente determinamos o VIF e visualizamos as variáveis mais correlacionad
 Primeiramente dividimos o dataset em treino e teste (test_size=0.3) e após definimos um modelo base com DummyClassifier (score 0.73).
 
 **8.1 Regressão logística:**
-
+Modelo previu 1.129 Churn_No e 454 Churn_Yes, tendo um melhor desempenho em acertar os clientes que desistiriam, comparado com a árvore de decisão.
 
 **8.2 Árvore de decisão:**
+Modelo previu 1.364 Churn_No e 296 Churn_Yes, tendo um melhor desempenho em acertar quais clientes não desistiriam, compardo com a regressão logística.
 
 # Hard Skills desenvolvidas
 Manipulação de dados com Pandas
